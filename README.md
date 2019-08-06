@@ -1,4 +1,5 @@
 # template-mysql-service
+This is for zabbix > 4.2.
 Personally I am not a fan of installing extra crap when you don't have to. So I built this template using the outdated percona template as a guide. 
 It has most of the items that the old percona template has but with no script. It works by grabbing all of the stats at one time converting them to json (yes I didn't use jq because I didn't want to install extra packages). 
 
